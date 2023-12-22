@@ -9,10 +9,10 @@
     "build": "vite build",
     "preview": "vite preview --open --host",
     "predeploy": "npm run build",
-    "deploy": "surge ./dist yourfrontenddomain.surge.sh",
-    "postdeploy": "start https://yourfrontenddomain.surge.sh"
+    "deploy": "surge ./dist css-opdracht-gus.surge.sh",
+    "postdeploy": "start https://css-opdracht-gus.surge.sh"
   },
-  "author": "David Verhulst",
+  "author": "Gusatvo Espitia",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.69.5",
