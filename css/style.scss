@@ -239,25 +239,26 @@ footer ul li a {
     display: none;
   }
   nav a {
-    display: contents;
+    display: inline;
     text-decoration: none;
     color: black;
+    margin-right: 10px;
   }
 
   nav {
     grid-row: 1;
     grid-column: -1;
-    width: auto;
+    width: 500px;
     font-size: 2.2rem;
-    justify-content: space-evenly;
     font-weight: 700;
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr 3fr;
     padding: 1em 2rem;
   }
+
   .billboard {
     padding: 9rem 1.4rem;
   }
